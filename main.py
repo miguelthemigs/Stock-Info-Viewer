@@ -15,7 +15,7 @@ bg_label.place(relwidth=1, relheight=1)
 
 canvas = tk.Canvas(root, width=1000, height= 750, bg="#B8BAC8")
 canvas.create_text(200, 50, text="Enter a stock ticker: ", fill="black", font=('Courier', 18))
-canvas.place(relx=0.5, rely=0, relwidth=0.5, relheight=0.1, anchor='n')
+canvas.place(x=230, y=10, width=380, height=100)
 
 frame = tk.Frame(root, bg='black', bd=5)
 frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')
