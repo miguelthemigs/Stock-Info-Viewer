@@ -1,2 +1,2 @@
 # Stock-Info-Viewer
-A GUI that shows stock info
+A GUI that shows stock info. 
